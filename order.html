@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/mdb.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+         crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" 
+         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" 
+         crossorigin="anonymous">
+        </script>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <title>Peppy's Pizza</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <a href="#" class="navbar-brand" style="font-size: 45px;">Peppy's Pizza</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav item">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="order.html">Order</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact us</a></li>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </header><br>
+        <div class="container">
+            <div id="img" class="image-2">
+              <img class="img-fluid" src="./images/pizza-2.jpg" style="width: 100%;">
+            </div>
+            <h1><strong>Place your order here:</strong></h1>
+            <form>
+                <div class="form-group">
+                    <div class="type">
+                        <label for="opt1">Choose your pizza:</label>
+                        <select class="form-control w-70" class="opt1" id="pizzaType">
+                            <option value="0">Type:</option>
+                            <option value="700">Hawaiian</option>
+                            <option value="700">Boerewors</option>
+                            <option value="700">BBQ steak</option>
+                            <option value="700">Veggie feast</option>
+                            <option value="700">Meat deluxe</option>
+                            <option value="700">Pepperoni</option>
+                            <option value="700">BBQ Chicken</option>
+                            <option value="700">Peri-peri Chicken</option>
+                            <option value="700">Tikka Chicken</option>
+                            <option value="700">Margarita</option> 
+                        </select>
+                    </div>
+
+                    <div class="size">
+                        <div class="form-group">
+                            <label for="opt1">Size:</label>
+                            <select class="form-control w-70" class="opt1" id="size">
+                                <option value="0">Size:</option>
+                                <option value="550">Small</option>
+                                <option value="750">Medium</option>
+                                <option value="950">Large</option>
+                                <option value="1200">Mega</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="crust">
+                        <div class="form-group">
+                            <label for="opt1">Pizza crust:</label>
+                            <select class="form-control w-70" class="opt1" id="crust">
+                                <option value="0">Crust:</option>
+                                <option value="100">Crispy</option>
+                                <option value="100">Stuffed</option>
+                                <option value="100">Gluten free</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="toppings">
+                        <div class="form-group">
+                            <label for="opt1">Toppings:</label>
+                            <select class="form-control w-70" class="opt1" id="toppings">
+                                <option value="0">Toppings:</option>
+                                <option value="100">Vegetables</option>
+                                <option value="100">BBQ steak</option>
+                                <option value="100">Peri-peri chicken</option>
+                                <option value="100">Ham</option>
+                                <option value="100">Boerewors</option>
+                                <option value="100">Mince</option>
+                                <option value="100">Pepperoni</option>
+                                <option value="100">Bacon</option>
+                                <option value="100">Cheese</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="opt1">Quantity:</label>
+                      <input class="form-control w-70" class="opt1" type="number" name="pizza" id="quantity" placeholder="2" min="1">
+                      <br>
+                      <input style="color: black;" id="btn" type="button" class="btn btn-lg bg-success" value="checkout" onclick="output()">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="footer-img">
+                <img src="./logo.jpeg" height="200px" width="auto">
+            </div>
+            <br>
+            <table class="footer-table">
+                <tr>
+                    <td>
+                      <a href="https://www.instagram.com/"><img src="./images/instagram.png"></a><br>
+                    </td>
+                    <td>
+                      <a href="https://facebook.com/login"><img src="./images/facebook.png"></a><br>
+                    </td>
+                    <td>
+                      <a href="https://www.twitter.com/"><img src="./images/twitter.png"><br>
+                    </td>
+                    <td>
+                      <a href="https://aboutme.google.com/u/0/?referer=gplus"><img src="./images/g_plus.png"></a><br>
+                    </td>
+                  </tr>
+            </table>
+            <div class="footer-text">
+                <p>PEPPY'S PIZZA</p>
+                <p>&copy 2020</p>
+            </div>
+        </footer>
+    </body>
+</html>
