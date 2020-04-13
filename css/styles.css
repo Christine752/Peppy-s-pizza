@@ -120,17 +120,17 @@ div.contact-btn button {
 }
 
 #email {
-  width: 26%;
+  width: 30%;
   margin-left: 20px;
 }
 #name {
-  width: 26%;
+  width: 30%;
 }
 .name-input {
-  margin-right: 50%;
+  margin-right: 45%;
 }
 #comment {
-  margin-left: 30%;
+  margin-left: 42%;
   color: black;
 }
 .form-group {
