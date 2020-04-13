@@ -25,6 +25,9 @@ nav li a:hover {
   background-color: grey;
   padding: 5px;
 }
+nav ul li {
+  font-family: "Playfair Display", serif;
+}
 nav ul li a {
   padding: 20px;
 }
