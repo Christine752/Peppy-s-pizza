@@ -63,7 +63,7 @@ footer {
 .footer-table {
   align-items: center;
   align-content: center;
-  margin-left: 45%;
+  margin-left: auto;
   border: none;
 }
 
