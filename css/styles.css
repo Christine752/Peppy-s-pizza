@@ -195,3 +195,7 @@ div.contact-btn button:hover {
   align-items: center;
   align-content: center;
 }
+#close-msg {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
