@@ -1,6 +1,6 @@
 # Peppy's pizza
 
-#### Welcome to Peppy's pizza website,where quality meets taste! Latest version of this application is 15th April 2020.
+#### Welcome to Peppy's pizza website, where quality meets taste! Latest version of this application is 15th April 2020.
 
 #### By Christine Mugambi.
 
@@ -27,10 +27,10 @@ There are no issues or bugs in this application.
 ## Contact details
 
 For any queries, issues or comments, kindly reach out to me through these handles:
-*Email <a href="https://njeri.mugamby@gmail.com">
-*Yahoo <a href="https://njeri.mugamby21@yahoo.com">
+Email: njeri.mugamby@gmail.com
+Yahoo: njeri.mugamby21@yahoo.com
 
 ### License
 
-_{Determine the license under which this application can be used. See below for more details on licensing.}_
+MIT License
 Copyright (c) 2020 Christine Mugambi.
