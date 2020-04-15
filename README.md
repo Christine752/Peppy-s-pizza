@@ -6,7 +6,7 @@
 
 ## Description
 
-Welcome to Peppy's Pizza, where quality meets taste. We just launched our website that can be accessed through <a href="https://christine752.github.io/Peppy's-pizza/">This Link.</a> Any required information can be accessed there.
+Welcome to Peppy's Pizza, where quality meets taste. We just launched our website that can be accessed through <a href="https://christine752.github.io/Peppy-s-pizza/">This Link.</a> Any required information can be accessed there.
 
 ## User story
 
