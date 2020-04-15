@@ -27,8 +27,9 @@ There are no issues or bugs in this application.
 ## Contact details
 
 For any queries, issues or comments, kindly reach out to me through these handles:
-Email: njeri.mugamby@gmail.com
-Yahoo: njeri.mugamby21@yahoo.com
+
+- Email: njeri.mugamby@gmail.com
+- Yahoo: njeri.mugamby21@yahoo.com
 
 ### License
 
