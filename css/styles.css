@@ -45,6 +45,8 @@ h1 {
   overflow-x: hidden;
 }
 .intro-text {
+  background-color: white;
+  border: 2px solid red;
   text-align: center;
   padding-top: 15px;
   font-size: 30px;
