@@ -72,6 +72,37 @@ footer {
   border: none;
 }
 
+/* order */
+
+#order {
+  color: white;
+}
+.card-body {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.type {
+  align-items: center;
+  align-content: center;
+  width: 50%;
+}
+.size {
+  align-items: center;
+  align-content: center;
+}
+.crust {
+  align-items: center;
+  align-content: center;
+}
+.toppings {
+  align-items: center;
+  align-content: center;
+}
+#close-msg {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
 /* contact */
 
 #contact {
@@ -173,31 +204,4 @@ div.contact-btn button:hover {
 #my-message {
   width: 50%;
   height: 50%;
-}
-
-/* order */
-
-#order {
-  color: white;
-}
-.type {
-  align-items: center;
-  align-content: center;
-  width: 50%;
-}
-.size {
-  align-items: center;
-  align-content: center;
-}
-.crust {
-  align-items: center;
-  align-content: center;
-}
-.toppings {
-  align-items: center;
-  align-content: center;
-}
-#close-msg {
-  text-align: center;
-  font-family: "Playfair Display", serif;
 }
