@@ -74,7 +74,7 @@ function getTotalAmount() {
         " The Total Amount is kshs " +
         totalAmount +
         "" +
-        " Thank you for eating at Royals pizza palace."
+        " Thank you for eating at Peppy's pizza."
     );
   } else {
     return false;
